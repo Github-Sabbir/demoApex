@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* ========== */
+.topBar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 100px;
+    background-color: white;
+}
+.topBar li {
+    list-style: none;
+    font-size: 12px;
+    padding: 10px;
+}
+.topBar li:hover{
+    text-decoration-line: underline;
+}
+
+/* ======Top bar====== */
+header {
+  background-image: url(../image/bg1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
+header nav:hover{
+    background-color: white;
+    color: black;
+}
+header nav:hover .leftNav{
+    background-color: white;
+    color: black;
+}
+
+header nav:hover .rightNav i{
+    background-color: white;
+    color: black;
+}
+nav .leftNav {
+  display: flex;
+  color: white;
+  list-style: none;
+  padding: 0px 30px;
+}
+.leftNav img {
+  margin-top: 10px;
+  margin-right: 40px;
+  height: 45px;
+}
+.leftNav li {
+  padding: 18px 10px;
+  font-size: 18px;
+  transform: scale(.9);
+}
+.leftNav li:hover{
+  transition: .7s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.rightNav i {
+  color: white;
+  padding: 18px 10px;
+  font-size: 20px;
+}
+.rightNav i:hover{
+  transition: 0.5s; 
+  transform: scale(1.4);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.offer {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding: 3% 10% 2% 10%;
+}
+.btnSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.btnType1{
+    padding: 8px 0px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: 1.2s;
+}
+.btnType1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+/* ======header====== */
+.topBanner{
+  background-color: #191919;
+  color: white;
+  padding: 3% 10% 0% 10%;
+  position: relative;
+  height: 76vh;
+}
+.topBanner h3{
+  font-size: 30px;
+}
+.topBanner p{
+  font-size: 12px;
+  margin-bottom: 4%;
+}
+.topBanner img{
+  position: absolute;
+  margin-top: 30px;
+  border-radius: 10px;
+  z-index: 1;
+  width: 40%;
+
+}
+.topBanner video{
+  position: absolute;
+  right: 100px;
+  top: -60px;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: auto;
+  background-color: #191919;
+}
+
+/* ======================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider{
+  background-color: brown;
+  padding: 1% 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .title {
+  color: black;
+  text-align: center;
+  position: relative;
+}
+.slider {
+  border: 1px solid rgb(185, 172, 172);
+  height: 500px;
+  position: relative;
+}
+.text {
+  background-color: rgb(255, 253, 250);
+  padding: 3px 10px;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 85%;
+  border: 3px solid black;
+  top: 15px;
+  right: 7%;
+  z-index: -1;
+  border-bottom: 0px;
+}
+.slider::after {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 85%;
+  border: 3px solid black;
+  bottom: 15px;
+  right: 7%;
+  background-color: transparent;
+  z-index: -1;
+  border-top: 0px;
+} */
